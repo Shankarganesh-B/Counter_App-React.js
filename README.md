@@ -1,6 +1,3 @@
-It looks like you're working to create a polished `README.md` file for your React Counter App! I noticed a small issue in your snippet, where some parts could use a little formatting fix. Here’s a cleaned-up and fully formatted version of the `README.md`:
-
-```markdown
 # React Counter App
 
 A simple ReactJavaScript-based counter app that allows users to increment, decrement, and set a custom value for a counter. The app maintains a history of all actions performed, providing a clear, scrollable view of past counter states.
