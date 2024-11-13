@@ -1,3 +1,6 @@
+It looks like you're working to create a polished `README.md` file for your React Counter App! I noticed a small issue in your snippet, where some parts could use a little formatting fix. Here’s a cleaned-up and fully formatted version of the `README.md`:
+
+```markdown
 # React Counter App
 
 A simple ReactJavaScript-based counter app that allows users to increment, decrement, and set a custom value for a counter. The app maintains a history of all actions performed, providing a clear, scrollable view of past counter states.
@@ -5,7 +8,7 @@ A simple ReactJavaScript-based counter app that allows users to increment, decre
 This app also implements **Glassmorphism** for the UI design to give it a modern, sleek look.
 
 ## Live Website Link
-- **Vercel**: https://counter-app-reactjs-pi.vercel.app/
+- **Vercel**: [https://counter-app-reactjs-pi.vercel.app/](https://counter-app-reactjs-pi.vercel.app/)
 
 ## Features
 
@@ -33,39 +36,48 @@ To get the app up and running locally, follow these steps:
 
 ### Prerequisites
 
-## Make sure you have Node.js and npm installed. You can check this by running the following commands:
+Make sure you have Node.js and npm installed. You can check this by running the following commands:
 
 ```bash
 node -v
 npm -v
+```
 
-Installing
+If you don't have them installed, please install them from the official Node.js website.
+
+### Installing
+
 Clone the repository to your local machine:
 
-bash
-Copy code
-git clone **https://github.com/Shankarganesh-B/Counter_App-React.js.git**
+```bash
+git clone https://github.com/Shankarganesh-B/Counter_App-React.js.git
+```
+
 Navigate into the project directory:
 
-bash
-Copy code
+```bash
 cd react-counter-app
+```
+
 Install the required dependencies:
 
-bash
-Copy code
+```bash
 npm install
-Running the App
+```
+
+### Running the App
+
 Once the dependencies are installed, you can start the app by running:
 
-bash
-Copy code
+```bash
 npm start
+```
+
 This will start a development server, and you should be able to open the app in your browser by navigating to:
 
-bash
-Copy code
+```bash
 http://localhost:3000
+```
 
 ## File Structure
 
@@ -83,20 +95,17 @@ react-counter-app/
 │       └── images/            # Folder containing images (used in the background)
 ├── package.json               # Project metadata and dependencies
 └── README.md                  # This file
+```
 
-Design Notes
-The app uses Glassmorphism, a modern design trend that involves creating UI elements that appear to be made of frosted glass. The effects are created using the backdrop-filter property, and additional styles like rounded corners, box shadows, and blurred backgrounds enhance the glass-like look.
+## Design Notes
 
-License
-This project is licensed under the MIT License - see the LICENSE file for details.
+The app uses **Glassmorphism**, a modern design trend that involves creating UI elements that appear to be made of frosted glass. The effects are created using the `backdrop-filter` property, and additional styles like rounded corners, box shadows, and blurred backgrounds enhance the glass-like look.
 
-Acknowledgements
-Inspired by the Glassmorphism UI design trend.
-Thanks to the ReactJavaScript community for making frontend development easier.
+## License
 
+This project is licensed under the MIT License - see the `LICENSE` file for details.
 
-### Key changes:
-1. **Markdown for code block**: I wrapped the "File Structure" section in proper markdown code block formatting using triple backticks (\`\`\`plaintext\) for clarity.
-2. **License and Acknowledgements**: These sections have been written in standard markdown with appropriate headings.
+## Acknowledgements
 
-Now, when you copy this into your **README.md** file, the formatting will display as intended. Let me know if you need further adjustments!
+- Inspired by the **Glassmorphism** UI design trend.
+- Thanks to the **ReactJavaScript** community for making frontend development easier.
